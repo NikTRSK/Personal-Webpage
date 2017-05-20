@@ -1,0 +1,2336 @@
+{
+  "accomodations" : [
+  {
+    "city": "Paris",
+    "check_in": "2017-08-02",
+    "check_out": "2017-08-09",
+    "hostels": [
+      {
+        "name": "The Loft Boutique Hostel Paris",
+        "address": "70 Rue Julien Lacroix, 75020 Paris, France",
+        "price_per_day": "$32.55"
+      },
+      {
+        "name": "Le Regent Montmartre Hostel & Budget Hotel",
+        "address": "37 Boulevard de Rochechouart, 75009 Paris, France",
+        "price_per_day": "$32.04"
+      },
+      {
+        "name": "Les Piaules",
+        "address": "59 Boulevard de Belleville, 75011 Paris, France",
+        "price_per_day": "34.88" 
+      }
+    ]
+  },
+  {
+    "city": "Madrid",
+    "check_in": "2017-08-09",
+    "check_out": "2017-08-14",
+    "hostels": [
+      {
+        "name": "Mola Hostel",
+        "address": "Calle de Atocha, 16, 28012 Madrid, Spain",
+        "price_per_day": "$20.33"
+      },
+      {
+        "name": "Room007 Ventura Hostel",
+        "address": "Calle Ventura de la Vega, 5, 28014 Madrid, Spain",
+        "price_per_day": "$18.81" 
+      },
+      {
+        "name": "Hostel Meeting Point",
+        "address": "Calle Factor, 5, 28013 Madrid, Spain",
+        "price_per_day": "$17.92"
+      }
+    ]
+  },
+  {
+    "city": "Amsterdam",
+    "check_in": "2017-08-14",
+    "check_out": "2017-08-19",
+    "hostels": [
+      {
+        "name": "ClinkNOORD",
+        "address": "Badhuiskade 3, 1031 KV Amsterdam, Netherlands",
+        "price_per_day": "$42.28"
+      },
+      {
+        "name": "MEININGER Amsterdam City West",
+        "address": "Orlyplein 1 - 67, 1043 DR Amsterdam, Netherlands",
+        "price_per_day": "$36.09"
+      },
+      {
+        "name": "Shelter City",
+        "address": "Barndesteeg 21, 1012 BV Amsterdam, Netherlands",
+        "price_per_day": "$34.99"
+      }
+    ]
+  },
+  {
+    "city": "Munich",
+    "check_in": "2017-08-19",
+    "check_out": "2017-08-22",
+    "hostels": [
+      {
+        "name": "Wombats City Hostel Munich",
+        "address": "Senefelderstraße 1, 80336 München, Germany",
+        "price_per_day": "$29.19"
+      },
+      {
+        "name": "MEININGER Munich City Center",
+        "address": "Landsberger Str. 20, 80339 München, Germany",
+        "price_per_day": "$19.32" 
+      },
+      {
+        "name": "Euro Youth Hostel",
+        "address": "Senefelderstraße 5, 80336 München, Germany",
+        "price_per_day": "$29.16"
+      }
+    ]
+  }
+],
+  "flights" : [{
+  "source": "Los Angeles",
+  "destination": "Paris",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$365",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    },
+    {
+      "price": "$470",
+      "airline": "Norwegianm 9:50pm - 3:45pm",
+      "departureTime": "17:55",
+      "landingTime": "17:55"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Madrid",
+  "startDate": "Aug 09 2017 00:00:00 GMT+0100",
+  "flights": [
+    {
+      "price": "$53",
+      "airline": "Ryanair",
+      "departureTime": "Aug 09 2017 9:25:00 GMT+0100",
+      "landingTime": "Aug 09 2017 9:25:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Amsterdam",
+  "startDate": "Aug 14 2017 00:00:00 GMT+0100",
+  "flights": [
+    {
+      "price": "$122",
+      "airline": "Ryanair + Flybe",
+      "departureTime": "Aug 14 2017 1:25:00 GMT+0100",
+      "landingTime": "Aug 14 2017 1:25:00 GMT+0100"
+    },
+    {
+      "price": "$148",
+      "airline": "Ryanair + Vueling Airlines",
+      "departureTime": "Aug 14 2017 6:40:00 GMT+0100",
+      "landingTime": "Aug 14 2017 6:40:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Munich",
+  "startDate": "Aug 19 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$131",
+      "airline": "KLM",
+      "departureTime": "Aug 19 2017 18:45:00 GMT+0100",
+      "landingTime": "Aug 19 2017 18:45:00 GMT+0100"
+    },
+    {
+      "price": "$109",
+      "airline": "Iberia",
+      "departureTime": "Aug 19 2017 8:00:00 GMT+0100",
+      "landingTime": "Aug 19 2017 8:00:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Los Angeles",
+  "startDate": "Aug 23 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$366",
+      "airline": "Norwegian",
+      "departureTime": "Tue Aug 23 2017 13:25:00 GMT+0100",
+      "landingTime": "Tue Aug 23 2017 13:25:00 GMT+0100"
+    },
+    {
+      "price": "$393",
+      "airline": "SAS + Norwegian",
+      "departureTime": "Tue Aug 23 2017 9:45:00 GMT+0100",
+      "landingTime": "Tue Aug 23 2017 9:45:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Paris",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$365",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    },
+    {
+      "price": "$470",
+      "airline": "Norwegianm 9:50pm - 3:45pm",
+      "departureTime": "17:55",
+      "landingTime": "17:55"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Madrid",
+  "startDate": "Aug 09 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$53",
+      "airline": "Ryanair",
+      "departureTime": "Aug 09 2017 9:25:00 GMT+0100",
+      "landingTime": "Aug 09 2017 9:25:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Munich",
+  "startDate": "Aug 14 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$63",
+      "airline": "Air Europa",
+      "departureTime": "Aug 14 2017 7:10:00 GMT+0100",
+      "landingTime": "Aug 14 2017 7:10:00 GMT+0100"
+    },
+    {
+      "price": "$90",
+      "airline": "Iberia",
+      "departureTime": "Aug 14 2017 19:50:00 GMT+0100",
+      "landingTime": "Aug 14 2017 19:50:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Amsterdam",
+  "startDate": "Aug 17 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$77",
+      "airline": "Air Berlin",
+      "departureTime": "Aug 17 2017 14:55:00 GMT+0100",
+      "landingTime": "Aug 17 2017 14:55:00 GMT+0100"
+    },
+    {
+      "price": "$112",
+      "airline": "Lufthansa",
+      "departureTime": "Aug 17 2017 14:45:00 GMT+0100",
+      "landingTime": "Aug 17 2017 14:45:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$360",
+      "airline": "WOW",
+      "departureTime": "Aug 22 2017 12:25:00 GMT+0100",
+      "landingTime": "Aug 22 2017 12:25:00 GMT+0100"
+    },
+    {
+      "price": "$380",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 21:35:00 GMT+0100",
+      "landingTime": "Aug 22 2017 21:35:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Paris",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$365",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    },
+    {
+      "price": "$470",
+      "airline": "Norwegianm 9:50pm - 3:45pm",
+      "departureTime": "17:55",
+      "landingTime": "17:55"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Amsterdam",
+  "startDate": "Aug 09 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$34",
+      "airline": "Transavia",
+      "departureTime": "Aug 09 2017 7:30:00 GMT+0100",
+      "landingTime": "Aug 09 2017 7:30:00 GMT+0100"
+    },
+    {
+      "price": "$54",
+      "airline": "Transavia",
+      "departureTime": "Aug 09 2017 7:50:00 GMT+0100",
+      "landingTime": "Aug 09 2017 7:50:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Madrid",
+  "startDate": "Aug 14 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$71",
+      "airline": "Air Europa",
+      "departureTime": "Aug 14 2017 10:55:00 GMT+0100",
+      "landingTime": "Aug 14 2017 10:55:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Munich",
+  "startDate": "Aug 19 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$67",
+      "airline": "Iberia",
+      "departureTime": "Aug 19 2017 19:50:00 GMT+0100",
+      "landingTime": "Aug 19 2017 19:50:00 GMT+0100"
+    },
+    {
+      "price": "$78",
+      "airline": "Air Berlin",
+      "departureTime": "Aug 19 2017 19:50:00 GMT+0100",
+      "landingTime": "Aug 19 2017 19:50:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$366",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 12:25:00 GMT+0100",
+      "landingTime": "Aug 22 2017 12:25:00 GMT+0100"
+    },
+    {
+      "price": "$380",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 21:35:00 GMT+0100",
+      "landingTime": "Aug 22 2017 21:35:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Paris",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$365",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    },
+    {
+      "price": "$470",
+      "airline": "Norwegianm 9:50pm - 3:45pm",
+      "departureTime": "17:55",
+      "landingTime": "17:55"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Amsterdam",
+  "startDate": "Aug 09 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$34",
+      "airline": "Transavia",
+      "departureTime": "Aug 09 2017 7:30:00 GMT+0100",
+      "landingTime": "Aug 09 2017 7:30:00 GMT+0100"
+    },
+    {
+      "price": "$54",
+      "airline": "Transavia",
+      "departureTime": "Aug 09 2017 7:50:00 GMT+0100",
+      "landingTime": "Aug 09 2017 7:50:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Munich",
+  "startDate": "Aug 14 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$131",
+      "airline": "KLM",
+      "departureTime": "Aug 14 2017 18:45:00 GMT+0100",
+      "landingTime": "Aug 14 2017 18:45:00 GMT+0100"
+    },
+    {
+      "price": "$109",
+      "airline": "Iberia",
+      "departureTime": "Aug 14 2017 8:00:00 GMT+0100",
+      "landingTime": "Aug 14 2017 8:00:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Madrid",
+  "startDate": "Aug 17 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$103",
+      "airline": "Air Europa",
+      "departureTime": "Aug 17 2017 10:40:00 GMT+0100",
+      "landingTime": "Aug 17 2017 10:40:00 GMT+0100"
+    },
+    {
+      "price": "$103",
+      "airline": "Air Europa",
+      "departureTime": "Aug 17 2017 19:30:00 GMT+0100",
+      "landingTime": "Aug 17 2017 19:30:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$444",
+      "airline": "Norwegian + Spirit",
+      "departureTime": "Aug 22 2017 06:40:00 GMT+0100",
+      "landingTime": "Aug 22 2017 06:40:00 GMT+0100"
+    },
+    {
+      "price": "$539",
+      "airline": "easyJet + Norwegian",
+      "departureTime": "Aug 22 2017 07:00:00 GMT+0100",
+      "landingTime": "Aug 22 2017 07:00:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Paris",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$365",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    },
+    {
+      "price": "$470",
+      "airline": "Norwegianm 9:50pm - 3:45pm",
+      "departureTime": "17:55",
+      "landingTime": "17:55"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Munich",
+  "startDate": "Aug 09 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$54",
+      "airline": "Air France",
+      "departureTime": "Aug 09 2017 7:20:00 GMT+0100",
+      "landingTime": "Aug 09 2017 7:20:00 GMT+0100"
+    },
+    {
+      "price": "$54",
+      "airline": "Transavia",
+      "departureTime": "Aug 09 2017 15:40:00 GMT+0100",
+      "landingTime": "Aug 09 2017 15:40:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Madrid",
+  "startDate": "Aug 12 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$144",
+      "airline": "Air Berlin",
+      "departureTime": "Aug 12 2017 16:05:00 GMT+0100",
+      "landingTime": "Aug 12 2017 16:05:00 GMT+0100"
+    },
+    {
+      "price": "$148",
+      "airline": "Iberia",
+      "departureTime": "Aug 12 2017 7:35:00 GMT+0100",
+      "landingTime": "Aug 12 2017 7:35:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Amsterdam",
+  "startDate": "Aug 17 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$124",
+      "airline": "Air Europa",
+      "departureTime": "Aug 17 2017 15:00:00 GMT+0100",
+      "landingTime": "Aug 17 2017 15:00:00 GMT+0100"
+    },
+    {
+      "price": "$132",
+      "airline": "Portugalia Airlines",
+      "departureTime": "Aug 17 2017 9:10:00 GMT+0100",
+      "landingTime": "Aug 17 2017 9:10:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$360",
+      "airline": "WOW",
+      "departureTime": "Aug 22 2017 12:25:00 GMT+0100",
+      "landingTime": "Aug 22 2017 12:25:00 GMT+0100"
+    },
+    {
+      "price": "$380",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 21:35:00 GMT+0100",
+      "landingTime": "Aug 22 2017 21:35:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Paris",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$365",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    },
+    {
+      "price": "$470",
+      "airline": "Norwegianm 9:50pm - 3:45pm",
+      "departureTime": "17:55",
+      "landingTime": "17:55"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Munich",
+  "startDate": "Aug 09 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$54",
+      "airline": "Air France",
+      "departureTime": "Aug 09 2017 7:20:00 GMT+0100",
+      "landingTime": "Aug 09 2017 7:20:00 GMT+0100"
+    },
+    {
+      "price": "$54",
+      "airline": "Transavia",
+      "departureTime": "Aug 09 2017 15:40:00 GMT+0100",
+      "landingTime": "Aug 09 2017 15:40:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Amsterdam",
+  "startDate": "Aug 12 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$131",
+      "airline": "KLM",
+      "departureTime": "Aug 12 2017 17:55:00 GMT+0100",
+      "landingTime": "Aug 12 2017 17:55:00 GMT+0100"
+    },
+    {
+      "price": "$131",
+      "airline": "KLM",
+      "departureTime": "Aug 12 2017 20:50:00 GMT+0100",
+      "landingTime": "Aug 12 2017 20:50:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Madrid",
+  "startDate": "Aug 17 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$70",
+      "airline": "Air Europa",
+      "departureTime": "Aug 17 2017 10:55:00 GMT+0100",
+      "landingTime": "Aug 17 2017 10:55:00 GMT+0100"
+    },
+    {
+      "price": "$79",
+      "airline": "Portugalia Airlines",
+      "departureTime": "Aug 17 2017 9:10:00 GMT+0100",
+      "landingTime": "Aug 17 2017 9:10:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$444",
+      "airline": "Norwegian + Spirit",
+      "departureTime": "Aug 22 2017 06:40:00 GMT+0100",
+      "landingTime": "Aug 22 2017 06:40:00 GMT+0100"
+    },
+    {
+      "price": "$539",
+      "airline": "easyJet + Norwegian",
+      "departureTime": "Aug 22 2017 07:00:00 GMT+0100",
+      "landingTime": "Aug 22 2017 07:00:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Madrid",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$469",
+      "airline": "WOW",
+      "departureTime": "Aug 01 2017 21:50:00 GMT-0700",
+      "landingTime": "Aug 01 2017 21:50:00 GMT-0700"
+    },
+    {
+      "price": "$481",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00",
+      "landingTime": "Aug 01 2017 18:00:00"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Paris",
+  "startDate": "Aug 07 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$75",
+      "airline": "Ryanair",
+      "departureTime": "Aug 07 2017 06:45:00 GMT+0100",
+      "landingTime": "Aug 07 2017 06:45:00 GMT+0100"
+    },
+    {
+      "price": "$83",
+      "airline": "transavia",
+      "departureTime": "Aug 07 2017 20:35:00 GMT+0100",
+      "landingTime": "Aug 07 2017 20:35:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Amsterdam",
+  "startDate": "Aug 14 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$35",
+      "airline": "transavia",
+      "departureTime": "Aug 14 2017 07:30:00 GMT+0100",
+      "landingTime": "Aug 14 2017 07:30:00 GMT+0100"
+    },
+    {
+      "price": "$54",
+      "airline": "Air France",
+      "departureTime": "Aug 14 2017 8:45:00 GMT+0100",
+      "landingTime": "Aug 14 2017 8:45:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Munich",
+  "startDate": "Aug 19 2017 00:00:00 GMT-0700",
+  "flights": [
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$366",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 12:25:00 GMT+0100",
+      "landingTime": "Aug 22 2017 12:25:00 GMT+0100"
+    },
+    {
+      "price": "$380",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 21:35:00 GMT+0100",
+      "landingTime": "Aug 22 2017 21:35:00 GMT+0100"
+    },
+    {
+      "price": "$360",
+      "airline": "WOW",
+      "departureTime": "Aug 22 2017 13:25:00 GMT+0100",
+      "landingTime": "Aug 22 2017 13:25:00 GMT+0100"
+    },
+    {
+      "price": "$393",
+      "airline": "SAS + Norwegian",
+      "departureTime": "Aug 22 2017 09:45:00 GMT+0100",
+      "landingTime": "Aug 22 2017 09:45:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Madrid",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$469",
+      "airline": "WOW",
+      "departureTime": "Aug 01 2017 21:50:00 GMT-0700",
+      "landingTime": "Aug 01 2017 21:50:00 GMT-0700"
+    },
+    {
+      "price": "$481",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00",
+      "landingTime": "Aug 01 2017 18:00:00"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Paris",
+  "startDate": "Aug 07 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$75",
+      "airline": "Ryanair",
+      "departureTime": "Aug 07 2017 06:45:00 GMT+0100",
+      "landingTime": "Aug 07 2017 06:45:00 GMT+0100"
+    },
+    {
+      "price": "$83",
+      "airline": "transavia",
+      "departureTime": "Aug 07 2017 20:35:00 GMT+0100",
+      "landingTime": "Aug 07 2017 20:35:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Munich",
+  "startDate": "Aug 14 2017 00:00:00 GMT-0700",
+  "flights": [
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Amsterdam",
+  "startDate": "Aug 17 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$77",
+      "airline": "Air Berlin",
+      "departureTime": "Aug 17 2017 14:55:00 GMT+0100",
+      "landingTime": "Aug 17 2017 14:55:00 GMT+0100"
+    },
+    {
+      "price": "$112",
+      "airline": "Lufthansa",
+      "departureTime": "Aug 17 2017 14:45:00 GMT+0100",
+      "landingTime": "Aug 17 2017 14:45:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$360",
+      "airline": "WOW",
+      "departureTime": "Aug 22 2017 12:25:00 GMT+0100",
+      "landingTime": "Aug 22 2017 12:25:00 GMT+0100"
+    },
+    {
+      "price": "$380",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 21:35:00 GMT+0100",
+      "landingTime": "Aug 22 2017 21:35:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Madrid",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$469",
+      "airline": "WOW",
+      "departureTime": "Aug 01 2017 21:50:00 GMT-0700",
+      "landingTime": "Aug 01 2017 21:50:00 GMT-0700"
+    },
+    {
+      "price": "$481",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00",
+      "landingTime": "Aug 01 2017 18:00:00"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Amsterdam",
+  "startDate": "Aug 07 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$91",
+      "airline": "Ryanair + Flybe",
+      "departureTime": "Aug 07 2017 13:25:00 GMT+0100",
+      "landingTime": "Aug 07 2017 13:25:00 GMT+0100"
+    },
+    {
+      "price": "$110",
+      "airline": "Ryanair + Flybe",
+      "departureTime": "Aug 07 2017 13:25:00 GMT+0100",
+      "landingTime": "Aug 07 2017 13:25:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Paris",
+  "startDate": "Aug 12 2017 00:00:00 GMT-0700",
+  "flights": [
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Munich",
+  "startDate": "Aug 19 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$75",
+      "airline": "Air France",
+      "departureTime": "Aug 19 2017 07:20:00 GMT+0100",
+      "landingTime": "Aug 19 2017 07:20:00 GMT+0100"
+    },
+    {
+      "price": "$99",
+      "airline": "eurowings + Lufthansa",
+      "departureTime": "Aug 19 2017 09:50:00 GMT+0100",
+      "landingTime": "Aug 19 2017 09:50:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$366",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 12:25:00 GMT+0100",
+      "landingTime": "Aug 22 2017 12:25:00 GMT+0100"
+    },
+    {
+      "price": "$380",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 21:35:00 GMT+0100",
+      "landingTime": "Aug 22 2017 21:35:00 GMT+0100"
+    },
+    {
+      "price": "$360",
+      "airline": "WOW",
+      "departureTime": "Aug 22 2017 13:25:00 GMT+0100",
+      "landingTime": "Aug 22 2017 13:25:00 GMT+0100"
+    },
+    {
+      "price": "$393",
+      "airline": "SAS + Norwegian",
+      "departureTime": "Aug 22 2017 09:45:00 GMT+0100",
+      "landingTime": "Aug 22 2017 09:45:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Madrid",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$469",
+      "airline": "WOW",
+      "departureTime": "Aug 01 2017 21:50:00 GMT-0700",
+      "landingTime": "Aug 01 2017 21:50:00 GMT-0700"
+    },
+    {
+      "price": "$481",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00",
+      "landingTime": "Aug 01 2017 18:00:00"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Amsterdam",
+  "startDate": "Aug 07 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$91",
+      "airline": "Ryanair + Flybe",
+      "departureTime": "Aug 07 2017 13:25:00 GMT+0100",
+      "landingTime": "Aug 07 2017 13:25:00 GMT+0100"
+    },
+    {
+      "price": "$110",
+      "airline": "Ryanair + Flybe",
+      "departureTime": "Aug 07 2017 13:25:00 GMT+0100",
+      "landingTime": "Aug 07 2017 13:25:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Munich",
+  "startDate": "Aug 12 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$103",
+      "airline": "SAS",
+      "departureTime": "Aug 12 2017 10:25:00 GMT+0100",
+      "landingTime": "Aug 12 2017 10:25:00 GMT+0100"
+    },
+    {
+      "price": "$128",
+      "airline": "KLM",
+      "departureTime": "Aug 12 2017 07:15:00 GMT+0100",
+      "landingTime": "Aug 12 2017 07:15:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Paris",
+  "startDate": "Aug 15 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$66",
+      "airline": "Air Berlin",
+      "departureTime": "Aug 15 2017 16:00:00 GMT+0100",
+      "landingTime": "Aug 15 2017 16:00:00 GMT+0100"
+    },
+    {
+      "price": "$118",
+      "airline": "SAS",
+      "departureTime": "Aug 15 2017 09:45:00 GMT+0100",
+      "landingTime": "Aug 15 2017 09:45:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$339",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 21:35:00 GMT+0100",
+      "landingTime": "Aug 22 2017 21:35:00 GMT+0100"
+    },
+    {
+      "price": "$539",
+      "airline": "XL Airlines",
+      "departureTime": "Aug 22 2017 15:15:00 GMT+0100",
+      "landingTime": "Aug 22 2017 15:15:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Madrid",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$469",
+      "airline": "WOW",
+      "departureTime": "Aug 01 2017 21:50:00 GMT-0700",
+      "landingTime": "Aug 01 2017 21:50:00 GMT-0700"
+    },
+    {
+      "price": "$481",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00",
+      "landingTime": "Aug 01 2017 18:00:00"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Munich",
+  "startDate": "Aug 07 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$75",
+      "airline": "Ryanair",
+      "departureTime": "Aug 07 2017 06:45:00 GMT+0100",
+      "landingTime": "Aug 07 2017 06:45:00 GMT+0100"
+    },
+    {
+      "price": "$83",
+      "airline": "transavia",
+      "departureTime": "Aug 07 2017 20:35:00 GMT+0100",
+      "landingTime": "Aug 07 2017 20:35:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Paris",
+  "startDate": "Aug 10 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$55",
+      "airline": "Air France",
+      "departureTime": "Aug 10 2017 20:30:00 GMT+0100",
+      "landingTime": "Aug 10 2017 20:30:00 GMT+0100"
+    },
+    {
+      "price": "$77",
+      "airline": "Air Berlin",
+      "departureTime": "Aug 10 2017 16:00:00 GMT+0100",
+      "landingTime": "Aug 10 2017 16:00:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Amsterdam",
+  "startDate": "Aug 15 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$35",
+      "airline": "transavia",
+      "departureTime": "Aug 15 2017 21:45:00 GMT+0100",
+      "landingTime": "Aug 15 2017 21:45:00 GMT+0100"
+    },
+    {
+      "price": "$54",
+      "airline": "Air France",
+      "departureTime": "Aug 15 2017 07:20:00 GMT+0100",
+      "landingTime": "Aug 15 2017 07:20:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$360",
+      "airline": "WOW",
+      "departureTime": "Aug 22 2017 12:25:00 GMT+0100",
+      "landingTime": "Aug 22 2017 12:25:00 GMT+0100"
+    },
+    {
+      "price": "$380",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 21:35:00 GMT+0100",
+      "landingTime": "Aug 22 2017 21:35:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Madrid",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$469",
+      "airline": "WOW",
+      "departureTime": "Aug 01 2017 21:50:00 GMT-0700",
+      "landingTime": "Aug 01 2017 21:50:00 GMT-0700"
+    },
+    {
+      "price": "$481",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00",
+      "landingTime": "Aug 01 2017 18:00:00"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Munich",
+  "startDate": "Aug 07 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$75",
+      "airline": "Ryanair",
+      "departureTime": "Aug 07 2017 06:45:00 GMT+0100",
+      "landingTime": "Aug 07 2017 06:45:00 GMT+0100"
+    },
+    {
+      "price": "$83",
+      "airline": "transavia",
+      "departureTime": "Aug 07 2017 20:35:00 GMT+0100",
+      "landingTime": "Aug 07 2017 20:35:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Amsterdam",
+  "startDate": "Aug 10 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$77",
+      "airline": "Air Berlin",
+      "departureTime": "Aug 10 2017 14:55:00 GMT+0100",
+      "landingTime": "Aug 10 2017 14:55:00 GMT+0100"
+    },
+    {
+      "price": "$113",
+      "airline": "Lufthansa",
+      "departureTime": "Aug 10 2017 06:45:00 GMT+0100",
+      "landingTime": "Aug 10 2017 06:45:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Paris",
+  "startDate": "Aug 15 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$49",
+      "airline": "transavia",
+      "departureTime": "Aug 15 2017 19:45:00 GMT+0100",
+      "landingTime": "Aug 15 2017 19:45:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$339",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 21:35:00 GMT+0100",
+      "landingTime": "Aug 22 2017 21:35:00 GMT+0100"
+    },
+    {
+      "price": "$539",
+      "airline": "XL Airlines",
+      "departureTime": "Aug 22 2017 15:15:00 GMT+0100",
+      "landingTime": "Aug 22 2017 15:15:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Amsterdam",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$360",
+      "airline": "WOW",
+      "departureTime": "Aug 01 2017 21:50:00 GMT-0700",
+      "landingTime": "Aug 01 2017 21:50:00 GMT-0700"
+    },
+    {
+      "price": "$361",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Paris",
+  "startDate": "Aug 07 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$49",
+      "airline": "transavia",
+      "departureTime": "Aug 07 2017 09:45:00 GMT+0100",
+      "landingTime": "Aug 07 2017 09:45:00 GMT+0100"
+    },
+    {
+      "price": "$88",
+      "airline": "easyJet",
+      "departureTime": "Aug 07 2017 17:30:00 GMT+0100",
+      "landingTime": "Aug 07 2017 17:30:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Madrid",
+  "startDate": "Aug 14 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$63",
+      "airline": "Ryanair",
+      "departureTime": "Aug 15 2017 09:25:00 GMT+0100",
+      "landingTime": "Aug 15 2017 09:25:00 GMT+0100"
+    },
+    {
+      "price": "$65",
+      "airline": "transavia",
+      "departureTime": "Aug 15 2017 17:45:00 GMT+0100",
+      "landingTime": "Aug 15 2017 17:45:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Munich",
+  "startDate": "Aug 19 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$67",
+      "airline": "Iberia",
+      "departureTime": "Aug 19 2017 19:50:00 GMT+0100",
+      "landingTime": "Aug 19 2017 19:50:00 GMT+0100"
+    },
+    {
+      "price": "$78",
+      "airline": "Air Berlin",
+      "departureTime": "Aug 19 2017 19:50:00 GMT+0100",
+      "landingTime": "Aug 19 2017 19:50:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$366",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 12:25:00 GMT+0100",
+      "landingTime": "Aug 22 2017 12:25:00 GMT+0100"
+    },
+    {
+      "price": "$380",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 21:35:00 GMT+0100",
+      "landingTime": "Aug 22 2017 21:35:00 GMT+0100"
+    },
+    {
+      "price": "$360",
+      "airline": "WOW",
+      "departureTime": "Aug 22 2017 13:25:00 GMT+0100",
+      "landingTime": "Aug 22 2017 13:25:00 GMT+0100"
+    },
+    {
+      "price": "$393",
+      "airline": "SAS + Norwegian",
+      "departureTime": "Aug 22 2017 09:45:00 GMT+0100",
+      "landingTime": "Aug 22 2017 09:45:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Amsterdam",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$360",
+      "airline": "WOW",
+      "departureTime": "Aug 01 2017 21:50:00 GMT-0700",
+      "landingTime": "Aug 01 2017 21:50:00 GMT-0700"
+    },
+    {
+      "price": "$361",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Paris",
+  "startDate": "Aug 07 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$49",
+      "airline": "transavia",
+      "departureTime": "Aug 07 2017 09:45:00 GMT+0100",
+      "landingTime": "Aug 07 2017 09:45:00 GMT+0100"
+    },
+    {
+      "price": "$88",
+      "airline": "easyJet",
+      "departureTime": "Aug 07 2017 17:30:00 GMT+0100",
+      "landingTime": "Aug 07 2017 17:30:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Munich",
+  "startDate": "Aug 14 2017 00:00:00 GMT-0700",
+  "flights": [
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Madrid",
+  "startDate": "Aug 17 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$103",
+      "airline": "Air Europa",
+      "departureTime": "Aug 17 2017 10:40:00 GMT+0100",
+      "landingTime": "Aug 17 2017 10:40:00 GMT+0100"
+    },
+    {
+      "price": "$103",
+      "airline": "Air Europa",
+      "departureTime": "Aug 17 2017 19:30:00 GMT+0100",
+      "landingTime": "Aug 17 2017 19:30:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$444",
+      "airline": "Norwegian + Spirit",
+      "departureTime": "Aug 22 2017 06:40:00 GMT+0100",
+      "landingTime": "Aug 22 2017 06:40:00 GMT+0100"
+    },
+    {
+      "price": "$539",
+      "airline": "easyJet + Norwegian",
+      "departureTime": "Aug 22 2017 07:00:00 GMT+0100",
+      "landingTime": "Aug 22 2017 07:00:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Amsterdam",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$360",
+      "airline": "WOW",
+      "departureTime": "Aug 01 2017 21:50:00 GMT-0700",
+      "landingTime": "Aug 01 2017 21:50:00 GMT-0700"
+    },
+    {
+      "price": "$361",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Madrid",
+  "startDate": "Aug 07 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$79",
+      "airline": "TAP Portugal",
+      "departureTime": "Aug 07 2017 18:50:00 GMT+0100",
+      "landingTime": "Aug 07 2017 18:50:00 GMT+0100"
+    },
+    {
+      "price": "$80",
+      "airline": "Air Europa",
+      "departureTime": "Aug 07 2017 18:35:00 GMT+0100",
+      "landingTime": "Aug 07 2017 18:35:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Paris",
+  "startDate": "Aug 12 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$75",
+      "airline": "Ryanair",
+      "departureTime": "Aug 12 2017 06:45:00 GMT+0100",
+      "landingTime": "Aug 12 2017 06:45:00 GMT+0100"
+    },
+    {
+      "price": "$105",
+      "airline": "Vueling Airlines",
+      "departureTime": "Aug 12 2017 07:00:00 GMT+0100",
+      "landingTime": "Aug 12 2017 07:00:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Munich",
+  "startDate": "Aug 19 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$75",
+      "airline": "Air France",
+      "departureTime": "Aug 19 2017 07:20:00 GMT+0100",
+      "landingTime": "Aug 19 2017 07:20:00 GMT+0100"
+    },
+    {
+      "price": "$109",
+      "airline": "Lufthansa",
+      "departureTime": "Aug 19 2017 06:25:00 GMT+0100",
+      "landingTime": "Aug 19 2017 06:25:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$366",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 12:25:00 GMT+0100",
+      "landingTime": "Aug 22 2017 12:25:00 GMT+0100"
+    },
+    {
+      "price": "$380",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 21:35:00 GMT+0100",
+      "landingTime": "Aug 22 2017 21:35:00 GMT+0100"
+    },
+    {
+      "price": "$360",
+      "airline": "WOW",
+      "departureTime": "Aug 22 2017 13:25:00 GMT+0100",
+      "landingTime": "Aug 22 2017 13:25:00 GMT+0100"
+    },
+    {
+      "price": "$393",
+      "airline": "SAS + Norwegian",
+      "departureTime": "Aug 22 2017 09:45:00 GMT+0100",
+      "landingTime": "Aug 22 2017 09:45:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Amsterdam",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$360",
+      "airline": "WOW",
+      "departureTime": "Aug 01 2017 21:50:00 GMT-0700",
+      "landingTime": "Aug 01 2017 21:50:00 GMT-0700"
+    },
+    {
+      "price": "$361",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Madrid",
+  "startDate": "Aug 07 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$79",
+      "airline": "TAP Portugal",
+      "departureTime": "Aug 07 2017 18:50:00 GMT+0100",
+      "landingTime": "Aug 07 2017 18:50:00 GMT+0100"
+    },
+    {
+      "price": "$80",
+      "airline": "Air Europa",
+      "departureTime": "Aug 07 2017 18:35:00 GMT+0100",
+      "landingTime": "Aug 07 2017 18:35:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Munich",
+  "startDate": "Aug 12 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$67",
+      "airline": "Iberia",
+      "departureTime": "Aug 12 2017 19:50:00 GMT+0100",
+      "landingTime": "Aug 12 2017 19:50:00 GMT+0100"
+    },
+    {
+      "price": "$78",
+      "airline": "Air Berlin",
+      "departureTime": "Aug 12 2017 19:50:00 GMT+0100",
+      "landingTime": "Aug 12 2017 19:50:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Paris",
+  "startDate": "Aug 15 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$66",
+      "airline": "Air Berlin",
+      "departureTime": "Aug 15 2017 16:00:00 GMT+0100",
+      "landingTime": "Aug 15 2017 16:00:00 GMT+0100"
+    },
+    {
+      "price": "$118",
+      "airline": "SAS",
+      "departureTime": "Aug 15 2017 09:45:00 GMT+0100",
+      "landingTime": "Aug 15 2017 09:45:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$339",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 21:35:00 GMT+0100",
+      "landingTime": "Aug 22 2017 21:35:00 GMT+0100"
+    },
+    {
+      "price": "$539",
+      "airline": "XL Airlines",
+      "departureTime": "Aug 22 2017 15:15:00 GMT+0100",
+      "landingTime": "Aug 22 2017 15:15:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Amsterdam",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$360",
+      "airline": "WOW",
+      "departureTime": "Aug 01 2017 21:50:00 GMT-0700",
+      "landingTime": "Aug 01 2017 21:50:00 GMT-0700"
+    },
+    {
+      "price": "$361",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Munich",
+  "startDate": "Aug 07 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$109",
+      "airline": "Lufthansa",
+      "departureTime": "Aug 07 2017 21:15:00 GMT+0100",
+      "landingTime": "Aug 07 2017 21:15:00 GMT+0100"
+    },
+    {
+      "price": "$118",
+      "airline": "Lufthansa",
+      "departureTime": "Aug 07 2017 07:00:00 GMT+0100",
+      "landingTime": "Aug 07 2017 07:00:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Paris",
+  "startDate": "Aug 10 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$55",
+      "airline": "Air France",
+      "departureTime": "Aug 10 2017 20:30:00 GMT+0100",
+      "landingTime": "Aug 10 2017 20:30:00 GMT+0100"
+    },
+    {
+      "price": "$77",
+      "airline": "Air Berlin",
+      "departureTime": "Aug 10 2017 16:00:00 GMT+0100",
+      "landingTime": "Aug 10 2017 16:00:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Madrid",
+  "startDate": "Aug 17 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$37",
+      "airline": "Ryanair",
+      "departureTime": "Aug 17 2017 13:45:00 GMT+0100",
+      "landingTime": "Aug 17 2017 13:45:00 GMT+0100"
+    },
+    {
+      "price": "$44",
+      "airline": "transvia",
+      "departureTime": "Aug 17 2017 17:45:00 GMT+0100",
+      "landingTime": "Aug 17 2017 17:45:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$444",
+      "airline": "Norwegian + Spirit",
+      "departureTime": "Aug 22 2017 06:40:00 GMT+0100",
+      "landingTime": "Aug 22 2017 06:40:00 GMT+0100"
+    },
+    {
+      "price": "$539",
+      "airline": "easyJet + Norwegian",
+      "departureTime": "Aug 22 2017 07:00:00 GMT+0100",
+      "landingTime": "Aug 22 2017 07:00:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Amsterdam",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$360",
+      "airline": "WOW",
+      "departureTime": "Aug 01 2017 21:50:00 GMT-0700",
+      "landingTime": "Aug 01 2017 21:50:00 GMT-0700"
+    },
+    {
+      "price": "$361",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Munich",
+  "startDate": "Aug 07 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$109",
+      "airline": "Lufthansa",
+      "departureTime": "Aug 07 2017 21:15:00 GMT+0100",
+      "landingTime": "Aug 07 2017 21:15:00 GMT+0100"
+    },
+    {
+      "price": "$118",
+      "airline": "Lufthansa",
+      "departureTime": "Aug 07 2017 07:00:00 GMT+0100",
+      "landingTime": "Aug 07 2017 07:00:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Madrid",
+  "startDate": "Aug 10 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$103",
+      "airline": "Air France",
+      "departureTime": "Aug 10 2017 10:40:00 GMT+0100",
+      "landingTime": "Aug 10 2017 10:40:00 GMT+0100"
+    },
+    {
+      "price": "$138",
+      "airline": "Condor + Iberia",
+      "departureTime": "Aug 10 2017 16:30:00 GMT+0100",
+      "landingTime": "Aug 10 2017 16:30:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Paris",
+  "startDate": "Aug 15 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$107",
+      "airline": "Ryanair",
+      "departureTime": "Aug 15 2017 06:45:00 GMT+0100",
+      "landingTime": "Aug 15 2017 06:45:00 GMT+0100"
+    },
+    {
+      "price": "$125",
+      "airline": "easyJet",
+      "departureTime": "Aug 15 2017 20:40:00 GMT+0100",
+      "landingTime": "Aug 15 2017 20:40:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$339",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 21:35:00 GMT+0100",
+      "landingTime": "Aug 22 2017 21:35:00 GMT+0100"
+    },
+    {
+      "price": "$539",
+      "airline": "XL Airlines",
+      "departureTime": "Aug 22 2017 15:15:00 GMT+0100",
+      "landingTime": "Aug 22 2017 15:15:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Munich",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$454",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    },
+    {
+      "price": "$545",
+      "airline": "Norwegian + Air Berlin",
+      "departureTime": " Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": " Aug 01 2017 18:00:00 GMT-0700"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Paris",
+  "startDate": "Aug 05 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$55",
+      "airline": "Air France",
+      "departureTime": "Aug 05 2017 18:10:00 GMT+0100",
+      "landingTime": "Aug 05 2017 18:10:00 GMT+0100"
+    },
+    {
+      "price": "$89",
+      "airline": "Lufthansa",
+      "departureTime": "Aug 05 2017 06:30:00 GMT+0100",
+      "landingTime": "Aug 05 2017 06:30:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Madrid",
+  "startDate": "Aug 12 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$89",
+      "airline": "Ryanair",
+      "departureTime": "Aug 12 2017 09:25:00 GMT+0100",
+      "landingTime": "Aug 12 2017 09:25:00 GMT+0100"
+    },
+    {
+      "price": "$106",
+      "airline": "British Airways",
+      "departureTime": "Aug 12 2017 16:05:00 GMT+0100",
+      "landingTime": "Aug 12 2017 16:05:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Amsterdam",
+  "startDate": "Aug 17 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$124",
+      "airline": "Air Europa",
+      "departureTime": "Aug 17 2017 15:00:00 GMT+0100",
+      "landingTime": "Aug 17 2017 15:00:00 GMT+0100"
+    },
+    {
+      "price": "$132",
+      "airline": "Portugalia Airlines",
+      "departureTime": "Aug 17 2017 9:10:00 GMT+0100",
+      "landingTime": "Aug 17 2017 9:10:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$360",
+      "airline": "WOW",
+      "departureTime": "Aug 22 2017 12:25:00 GMT+0100",
+      "landingTime": "Aug 22 2017 12:25:00 GMT+0100"
+    },
+    {
+      "price": "$380",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 21:35:00 GMT+0100",
+      "landingTime": "Aug 22 2017 21:35:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Munich",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$454",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    },
+    {
+      "price": "$545",
+      "airline": "Norwegian + Air Berlin",
+      "departureTime": " Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": " Aug 01 2017 18:00:00 GMT-0700"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Paris",
+  "startDate": "Aug 05 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$55",
+      "airline": "Air France",
+      "departureTime": "Aug 05 2017 18:10:00 GMT+0100",
+      "landingTime": "Aug 05 2017 18:10:00 GMT+0100"
+    },
+    {
+      "price": "$89",
+      "airline": "Lufthansa",
+      "departureTime": "Aug 05 2017 06:30:00 GMT+0100",
+      "landingTime": "Aug 05 2017 06:30:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Amsterdam",
+  "startDate": "Aug 12 2017 00:00:00 GMT-0700",
+  "flights": [
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Madrid",
+  "startDate": "Aug 17 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$70",
+      "airline": "Air Europa",
+      "departureTime": "Aug 17 2017 10:55:00 GMT+0100",
+      "landingTime": "Aug 17 2017 10:55:00 GMT+0100"
+    },
+    {
+      "price": "$79",
+      "airline": "Portugalia Airlines",
+      "departureTime": "Aug 17 2017 9:10:00 GMT+0100",
+      "landingTime": "Aug 17 2017 9:10:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$444",
+      "airline": "Norwegian + Spirit",
+      "departureTime": "Aug 22 2017 06:40:00 GMT+0100",
+      "landingTime": "Aug 22 2017 06:40:00 GMT+0100"
+    },
+    {
+      "price": "$539",
+      "airline": "easyJet + Norwegian",
+      "departureTime": "Aug 22 2017 07:00:00 GMT+0100",
+      "landingTime": "Aug 22 2017 07:00:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Munich",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$454",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    },
+    {
+      "price": "$545",
+      "airline": "Norwegian + Air Berlin",
+      "departureTime": " Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": " Aug 01 2017 18:00:00 GMT-0700"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Madrid",
+  "startDate": "Aug 05 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$125",
+      "airline": "Iberia",
+      "departureTime": "Aug 05 2017 07:35:00 GMT+0100",
+      "landingTime": "Aug 05 2017 07:35:00 GMT+0100"
+    },
+    {
+      "price": "$144",
+      "airline": "AirBerlin",
+      "departureTime": "Aug 05 2017 16:05:00 GMT+0100",
+      "landingTime": "Aug 05 2017 16:05:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Paris",
+  "startDate": "Aug 10 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$63",
+      "airline": "Ryanair",
+      "departureTime": "Aug 10 2017 06:45:00 GMT+0100",
+      "landingTime": "Aug 10 2017 06:45:00 GMT+0100"
+    },
+    {
+      "price": "$66",
+      "airline": "transavia",
+      "departureTime": "Aug 10 2017 20:35:00 GMT+0100",
+      "landingTime": "Aug 10 2017 20:35:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Amsterdam",
+  "startDate": "Aug 17 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$49",
+      "airline": "transavia",
+      "departureTime": "Aug 17 2017 21:45:00 GMT+0100",
+      "landingTime": "Aug 17 2017 21:45:00 GMT+0100"
+    },
+    {
+      "price": "$54",
+      "airline": "Air France",
+      "departureTime": "Aug 17 2017 07:50:00 GMT+0100",
+      "landingTime": "Aug 17 2017 07:50:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$360",
+      "airline": "WOW",
+      "departureTime": "Aug 22 2017 12:25:00 GMT+0100",
+      "landingTime": "Aug 22 2017 12:25:00 GMT+0100"
+    },
+    {
+      "price": "$380",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 21:35:00 GMT+0100",
+      "landingTime": "Aug 22 2017 21:35:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Munich",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$454",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    },
+    {
+      "price": "$545",
+      "airline": "Norwegian + Air Berlin",
+      "departureTime": " Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": " Aug 01 2017 18:00:00 GMT-0700"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Madrid",
+  "startDate": "Aug 05 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$125",
+      "airline": "Iberia",
+      "departureTime": "Aug 05 2017 07:35:00 GMT+0100",
+      "landingTime": "Aug 05 2017 07:35:00 GMT+0100"
+    },
+    {
+      "price": "$144",
+      "airline": "AirBerlin",
+      "departureTime": "Aug 05 2017 16:05:00 GMT+0100",
+      "landingTime": "Aug 05 2017 16:05:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Amsterdam",
+  "startDate": "Aug 10 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$139",
+      "airline": "British Airways",
+      "departureTime": "Aug 10 2017 06:55:00 GMT+0100",
+      "landingTime": "Aug 10 2017 06:55:00 GMT+0100"
+    },
+    {
+      "price": "$141",
+      "airline": "TAP Portugal",
+      "departureTime": "Aug 10 2017 09:10:00 GMT+0100",
+      "landingTime": "Aug 10 2017 09:10:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Paris",
+  "startDate": "Aug 17 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$35",
+      "airline": "transavia",
+      "departureTime": "Aug 17 2017 19:45:00 GMT+0100",
+      "landingTime": "Aug 17 2017 19:45:00 GMT+0100"
+    },
+    {
+      "price": "$111",
+      "airline": "Flybe",
+      "departureTime": "Aug 17 2017 17:40:00 GMT+0100",
+      "landingTime": "Aug 17 2017 17:40:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$339",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 21:35:00 GMT+0100",
+      "landingTime": "Aug 22 2017 21:35:00 GMT+0100"
+    },
+    {
+      "price": "$539",
+      "airline": "XL Airlines",
+      "departureTime": "Aug 22 2017 15:15:00 GMT+0100",
+      "landingTime": "Aug 22 2017 15:15:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Munich",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$454",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    },
+    {
+      "price": "$545",
+      "airline": "Norwegian + Air Berlin",
+      "departureTime": " Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": " Aug 01 2017 18:00:00 GMT-0700"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Amsterdam",
+  "startDate": "Aug 05 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$113",
+      "airline": "Lufthansa",
+      "departureTime": "Aug 05 2017 14:45:00 GMT+0100",
+      "landingTime": "Aug 05 2017 14:45:00 GMT+0100"
+    },
+    {
+      "price": "$131",
+      "airline": "KLM",
+      "departureTime": "Aug 05 2017 07:00:00 GMT+0100",
+      "landingTime": "Aug 05 2017 07:00:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Paris",
+  "startDate": "Aug 10 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$35",
+      "airline": "transavia",
+      "departureTime": "Aug 10 2017 19:45:00 GMT+0100",
+      "landingTime": "Aug 10 2017 19:45:00 GMT+0100"
+    },
+    {
+      "price": "$108",
+      "airline": "Czech Airlines",
+      "departureTime": "Aug 10 2017 09:25:00 GMT+0100",
+      "landingTime": "Aug 10 2017 09:25:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Madrid",
+  "startDate": "Aug 17 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$37",
+      "airline": "Ryanair",
+      "departureTime": "Aug 17 2017 13:45:00 GMT+0100",
+      "landingTime": "Aug 17 2017 13:45:00 GMT+0100"
+    },
+    {
+      "price": "$44",
+      "airline": "transvia",
+      "departureTime": "Aug 17 2017 17:45:00 GMT+0100",
+      "landingTime": "Aug 17 2017 17:45:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$444",
+      "airline": "Norwegian + Spirit",
+      "departureTime": "Aug 22 2017 06:40:00 GMT+0100",
+      "landingTime": "Aug 22 2017 06:40:00 GMT+0100"
+    },
+    {
+      "price": "$539",
+      "airline": "easyJet + Norwegian",
+      "departureTime": "Aug 22 2017 07:00:00 GMT+0100",
+      "landingTime": "Aug 22 2017 07:00:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Los Angeles",
+  "destination": "Munich",
+  "startDate": "Aug 01 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$454",
+      "airline": "Norwegian",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    },
+    {
+      "price": "$545",
+      "airline": "Norwegian + Air Berlin",
+      "departureTime": "Aug 01 2017 18:00:00 GMT-0700",
+      "landingTime": "Aug 01 2017 18:00:00 GMT-0700"
+    }
+  ]
+},
+{
+  "source": "Munich",
+  "destination": "Amsterdam",
+  "startDate": "Aug 05 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$113",
+      "airline": "Lufthansa",
+      "departureTime": "Aug 05 2017 14:45:00 GMT+0100",
+      "landingTime": "Aug 05 2017 14:45:00 GMT+0100"
+    },
+    {
+      "price": "$131",
+      "airline": "KLM",
+      "departureTime": "Aug 05 2017 07:00:00 GMT+0100",
+      "landingTime": "Aug 05 2017 07:00:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Amsterdam",
+  "destination": "Madrid",
+  "startDate": "Aug 10 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$79",
+      "airline": "TAP Portugal",
+      "departureTime": "Aug 10 2017 06:15:00 GMT+0100",
+      "landingTime": "Aug 10 2017 06:15:00 GMT+0100"
+    },
+    {
+      "price": "$79",
+      "airline": "TAP Portugal",
+      "departureTime": "Aug 10 2017 18:50:00 GMT+0100",
+      "landingTime": "Aug 10 2017 18:50:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Madrid",
+  "destination": "Paris",
+  "startDate": "Aug 15 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$107",
+      "airline": "Ryanair",
+      "departureTime": "Aug 15 2017 06:45:00 GMT+0100",
+      "landingTime": "Aug 15 2017 06:45:00 GMT+0100"
+    },
+    {
+      "price": "$125",
+      "airline": "easyJet",
+      "departureTime": "Aug 15 2017 20:40:00 GMT+0100",
+      "landingTime": "Aug 15 2017 20:40:00 GMT+0100"
+    }
+  ]
+},
+{
+  "source": "Paris",
+  "destination": "Los Angeles",
+  "startDate": "Aug 22 2017 00:00:00 GMT-0700",
+  "flights": [
+    {
+      "price": "$339",
+      "airline": "Norwegian",
+      "departureTime": "Aug 22 2017 21:35:00 GMT+0100",
+      "landingTime": "Aug 22 2017 21:35:00 GMT+0100"
+    },
+    {
+      "price": "$539",
+      "airline": "XL Airlines",
+      "departureTime": "Aug 22 2017 15:15:00 GMT+0100",
+      "landingTime": "Aug 22 2017 15:15:00 GMT+0100"
+    }
+  ]
+}]
+}
